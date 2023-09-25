@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .imagetumbnaill {
+    @apply text-white h-32;
+  }
+
+  .card {
+    @apply flex justify-between border p-5 text-center items-center mx-10 my-2 rounded shadow-md hover:bg-slate-100;
+  }
+
+  .btn-incre {
+    @apply border border-green-500 px-3 mx-3 text-green-500 rounded-md items-center hover:text-white hover:bg-green-500 hover:shadow-md;
+  }
+
+  .btn-decre {
+    @apply border border-red-500 px-3 mx-3 text-red-500 items-center rounded-md hover:text-white hover:bg-red-500 hover:shadow-md;
+  }
+
+  .btn-delete {
+    @apply border border-red-500 px-3 text-red-500 items-center rounded-md hover:text-white hover:bg-red-500 hover:shadow-md;
+  }
+
+  .amount-input {
+    @apply border text-center w-10 rounded-md ; 
+  }
+
+}
